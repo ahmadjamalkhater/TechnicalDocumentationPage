@@ -1,0 +1,25 @@
+/* Styles for regular sized devices (laptops, desktops) */
+@media screen and (min-width: 768px) {
+    #navbar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+    }
+    
+    #main-doc {
+      margin-left: 200px;
+    }
+  }
+  
+  /* Additional styles for smaller devices */
+  @media screen and (max-width: 767px) {
+    #navbar {
+      position: static;
+      height: auto;
+    }
+    
+    #main-doc {
+      margin-left: 0;
+    }
+  }
